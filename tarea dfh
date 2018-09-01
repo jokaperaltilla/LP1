@@ -1,0 +1,23 @@
+#include<oistream>
+#include<iostream>
+using namespace std;
+void main()
+
+{
+  cout<<"Hello, World"<<endl; 
+  return 0;					 
+}
+
+
+
+
+//no match for 'operator<' (operand types are 'std::basic_ostream<char>' and '<unresolved overloaded function type>')
+//faltan terminos" 
+//expected initializer before 'cout'
+//include' does not name a type
+//expected ';' before 'int'
+// empty filename in #include
+//expected namespace-name before ';' token
+//In function `main':
+//main' must return 'int'
+//invalid preprocessing directive #includ
