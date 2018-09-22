@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	const double yenes=0.0089;
+	const double libras=1.31;
+	const double euros=1.18;
+	int b;
+	char a=' ';
+	cout<<"ingrese el numero y luego la conversion entre (y,l,d,e)"<<endl;
+	cin>>b>>a;
+	if(a=='d')
+	{
+		cout<<"ingrese conversion (y,l,e)"<<endl;
+		cin>>a;
+		if(a=='y'){
+		cout<<b<<" dolares ="<<b/yenes<<" yenes = "<<endl;
+		}
+		if(a=='l'){
+		cout<<b<<" dolares ="<<b/libras<<" libras = "<<endl;
+		}
+		if(a=='e'){
+		cout<<b<<" dolares ="<<b/euros<<" euros = "<<endl;
+		}
+		else
+		{
+			cout<<"no conosco ese caracter"<<endl;
+		}
+	 	
+		
+	}
+	else if(a=='y'){
+	cout<<b<<" yenes = "<<b*yenes<<" dolares"<<endl;
+	}
+	else if(a=='l'){
+	cout<<b<<" libras = "<<b*libras<<" dolares"<<endl;
+	}
+	else if(a=='e'){
+	cout<<b<<" euros = "<<b*euros<<" dolares"<<endl;
+	}
+	else
+	{
+		cout<<"no conosco ese caracter"<<endl;	
+	}
+	 
+	
+}
